@@ -16,8 +16,8 @@ export class ListaDestinosComponent {
     this.destinos = [];
   }
 
-  guardar(nombre: string, url: string): boolean {
-    this.destinos.push(new DestinoViaje(nombre, url));
+  guardar(nombre: string, descripcion: string): boolean {
+    this.destinos.push(new DestinoViaje(nombre, descripcion));
     return false;
   }
 }
